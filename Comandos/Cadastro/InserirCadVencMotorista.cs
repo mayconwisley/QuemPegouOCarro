@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BancoDados;
+﻿using BancoDados;
 using Classes.Cadastros;
+using System;
 using System.Data;
 namespace Comandos.Cadastro
 {

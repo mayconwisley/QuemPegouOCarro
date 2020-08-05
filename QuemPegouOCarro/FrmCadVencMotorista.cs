@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using Comandos.Consulta;
+﻿using Classes.Cadastros;
 using Comandos.Cadastro;
+using Comandos.Consulta;
 using Comandos.Exclusao;
-using Classes.Cadastros;
+using System;
+using System.Data;
+using System.Linq;
+using System.Windows.Forms;
 namespace QuemPegouOCarro
 {
     public partial class FrmCadVencMotorista : Form
@@ -53,8 +48,6 @@ namespace QuemPegouOCarro
                     Nome = ListaVencMotorista.ID_Motorista.Nome,
                     DataVencimento = ListaVencMotorista.Vencimento,
                     Status = ListaVencMotorista.Status
-
-
                 }).ToList();
 
                 DgvListaMotorista.DataSource = null;
